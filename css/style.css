@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+}
+
+ul li{
+	display: inline-block;
+	margin-top: 25px
+}
+
+ul li a{
+	text-decoration: none;
+	color: #000000;
+	padding: 5px 20px;
+	transition: 0.3s ease;
+}
+
+ul li a:hover{
+	background-color: #000000;
+	color: #fff;
+}
+
+
+.logo img{
+	float: left;
+	width: 250px;
+	height: auto;
+	margin-top: 8px
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+	margin-left: 100px
+}
+
+.pic1{
+	position: absolute;
+	top: 50%;
+	left: 5%;
+}
+
+.salutation{
+	position: absolute;
+	top: 42%;
+	left: 5%;
+}
+
+.body1{
+	position: absolute;
+	top: 50%;
+	left: 37%;
+}
+
+.title2{
+	position: absolute;
+	top: 42%;
+	left: 70%;
+	/*border: 1px solid #C0C0C0;*/
+}
+
+.body2{
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	/*border: 1px solid #C0C0C0;	*/
+}
+.body3{
+	position: absolute;
+	top: 60%;
+	left: 70%;
+	/*border: 1px solid #C0C0C0;*/	
+}

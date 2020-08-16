@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Content</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+<style>
+#box {
+  background-color: white;
+  width: 700px;
+  border: 1px solid lightgray;
+  padding: 50px;
+  margin:80px;
+  
+}
+
+#leftbox { 
+    float:left;  
+    background:#ffffff; 
+    width:20%; 
+    height:280px; 
+    margin-top: 100px;
+    padding-left: 30px;
+    
+} 
+#middlebox{ 
+    float:left;  
+    background:#ffffff; 
+    width:80%; 
+    margin-top: 100px;
+    height:280px; 
+} 
+
+#filter-box{
+    background-color: white;
+  width: 280px;
+  border: 1px solid lightgray;
+  padding: 50px;
+  
+}
+
+
+
+</style>
+</head>
+<body>
+
+    <div id = "leftbox"> 
+        <p style="font-size: 30px; color: #007bff;">Clear Filters</p>
+        <div id="filter-box">
+            <p><b>Content Type</b></p>
+            <input type="checkbox" id="content1" name="content1" value="Activity">
+            <label for="content1"> Activity</label><br>
+            <input type="checkbox" id="content2" name="content2" value="Course">
+            <label for="content2"> Course</label><br>
+            <input type="checkbox" id="content3" name="content3" value="Module">
+            <label for="content3"> Module</label><br><br>
+
+            <p><b>Accredition</b></p>
+            <input type="checkbox" id="ac1" name="ac1" value="cda">
+            <label for="cda"> Cloud Degree</label><br><br>
+            
+            <p><b>Category</b></p>
+            <input type="checkbox" id="c1" name="c1" value="ca">
+            <label for="c1"> Cloud Architecture</label><br>
+            <input type="checkbox" id="c2" name="c2" value="cc">
+            <label for="c2"> Cloud Computing</label><br>
+            <input type="checkbox" id="c3" name="c3" value="ce">
+            <label for="c3">Compute Engines</label><br>
+            <input type="checkbox" id="c4" name="c4" value="db">
+            <label for="c4">Databases</label><br><br>
+
+
+        </div>
+    </div>  
+      
+    <div id = "middlebox"> 
+        <p>Showing 5 of 57 results</p>
+
+        <div id ="box"> 
+            <p style="font-size: 30px;color:orange">Data and Analyis : Data Dilemma</p>
+            <p style="font-size: 25px">CLOUD COMPUTING | Module, 2 hours </p>
+            <p style="font-size: 25sp;"><b>Students are introduced to Big Data and cloud tools used to transfrom Big Data</b></p>
+            <p style="font-size: 15sp;">Last Updated Jul 6,2020 | PDF <img src="add.png"></p>
+        </div>
+        
+        <div id ="box"> 
+            <p style="font-size: 30px;color:orange">Web Development Engineer Educator Guide</p>
+            <p style="font-size: 25px">CLOUD COMPUTING | Activity, 1 hours </p>
+            <p style="font-size: 25sp;"><b>This activity project stimulates real-world tasks encountered by cloud professionals and challenges students to aply their AWS knowledge and technical skills to evaluate and recommend an efficient and secure, and scalable solution</b></p>
+            <p style="font-size: 15sp;">Last Updated May 11,2020 | PDF <img src="add.png"></p>
+        </div>
+    </div> 
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+.body1{
+	position: absolute;
+	top: 10%;
+	left: 2%;	
+}
+
+.icn1{
+	position: absolute;
+	top: 50%;
+	left: 2%;
+}
+
+.body2{
+	position: absolute;
+	top: 50%;
+	left: 5%;
+}
+
+.icn2{
+	position: absolute;
+	top: 50%;
+	left: 52%;
+}
+
+.body3{
+	position: absolute;
+	top: 50%;
+	left: 56%;
+}
+
+.icn3{
+	position: absolute;
+	top: 10%;
+	right: 5%;
+}
